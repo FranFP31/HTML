@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<!---Alt+Shift+F= organiza todo el codigo -->
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    thead {
+        background-color: lightgreen;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+    caption {
+        font-size: 2em;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <table>
+        <caption>Mi primera tabla</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Nombre</th>
+                <th colspan="2">Sesion</th>
+                <th rowspan="2">Año Nacimiento</th>
+            </tr>
+            <tr>
+                <td>Html</td>
+                <td>CSS</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joe Hendry</td>
+                <td>Encabezados</td>
+                <td>Grid</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>Joe Hendry</td>
+                <td>Tablas</td>
+                <td>Borders</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Joe Hendry </td>
+                <td>Navegacion</td>
+                <td>Fonts</td>
+                <td>1986</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
